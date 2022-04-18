@@ -6,7 +6,7 @@ Hello there! Here you will find the answers to some katas 8 kyu I've done(:
 
 ...
 
-#Double Char 
+# Double Char 
 
 function doubleChar(str) {
 
