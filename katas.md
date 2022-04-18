@@ -9,11 +9,17 @@ Hello there! Here you will find the answers to some katas 8 kyu I've done(:
 #Double Char 
 
 function doubleChar(str) {
-  let double = "" 
+
+  let double = "";
+  
   for (let i = 0; i < str.length; i++){
+  
   double += (str[i]+str[i]);
+  
   }
+  
   return String(double)
+
 }
 
 ...
