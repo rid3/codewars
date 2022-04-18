@@ -2,7 +2,9 @@
 
 # K A T A S 
 
-> 8 Kyu <
+Hello there! Here you will find the answers to some katas 8 kyu I've done(:  
+
+> 8 kyu <
 
 ...
 
