@@ -48,7 +48,7 @@ function monkeyCount(n) {
     
   }
 
-(other option, more reduced)
+## (other option, more reduced)
 
 function monkeyCount(n) {
 
