@@ -66,8 +66,34 @@ function monkeyCount(n) {
 
 ...
 
+# The feats of Many Beasts 
 
+function feast(beast, dish) {
+  
+  for (let i = 0; i < beast.length; i++ ){
+  
+   for ( let j = 0; j < dish.length; j ++) {
+      
+   if (beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length -1] ) {
+   
+   return true;
+   
+   } else {
+    return false
+     }
+    }
+   }
+  }
+    
+## (other option, more reduced)
+ 
+ function feast(beast, dish) {
 
+  return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+   
+}
+
+...
 
 
 
