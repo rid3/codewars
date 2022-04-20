@@ -48,7 +48,7 @@ function monkeyCount(n) {
     
   }
 
-## (other option, more reduced)
+> (other option, more reduced)
 
 function monkeyCount(n) {
 
@@ -85,7 +85,7 @@ function feast(beast, dish) {
    }
   }
     
-## (other option, more reduced)
+> (other option, more reduced)
  
  function feast(beast, dish) {
 
