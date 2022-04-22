@@ -95,6 +95,15 @@ function feast(beast, dish) {
 
 ...
 
+# Is the date today
+
+function isToday(date) {
+
+ return date.toDateString() === new Date().toDateString()
+ 
+}
+
+...
 
 
 
