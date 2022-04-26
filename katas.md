@@ -105,6 +105,16 @@ function isToday(date) {
 
 ...
 
+# Remove the time
 
+function shortenToDate(longDate) {
+
+let newDate = longDate.split(",")[0]
+
+return newDate;
+  
+}
+
+...
 
 
