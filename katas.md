@@ -1,6 +1,6 @@
 # CodeWars 
 # K A T A S 
-Hello there! Here you will find the answers to some katas 8 kyu I've done(:  
+Hello there! Here you will find the answers to some katas 8 kyu and 7 kyu I've done(:  
 
 > 8 kyu <
 
@@ -117,4 +117,38 @@ return newDate;
 
 ...
 
+> 7 kyu <
 
+# Complementary DNA
+
+function DNAStrand(dna){
+  
+  let newdna = "";
+  
+ dna.split("").forEach( (eachChar) => {
+ 
+   if (eachChar === "A") {
+   
+   newdna += "T" ;
+
+} else if (eachChar === "T") {
+
+newdna += "A"
+
+} else if (eachChar === "C") {
+
+newdna += "G"
+
+} else if (eachChar === "G") {
+    
+   newdna += "C"
+  
+  }
+
+})
+
+  return newdna;
+
+}
+
+...
